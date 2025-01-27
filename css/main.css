@@ -2,6 +2,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 400px) {
@@ -1468,7 +1469,7 @@ input::-moz-focus-inner {
 }
 
 .framer-dot {
-    margin-top: -4px !important;
+    margin-top: -4.5px !important;
 }
 
 .dot {
@@ -1476,8 +1477,14 @@ input::-moz-focus-inner {
     height: 10px;
     padding: auto;
     opacity: 90%;
-    margin-top: 1px;
+    margin-top: 0.5px;
     border-radius: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+    .framer-dot {
+        margin-top: -3.5px !important;
+    }
 }
 
 header
@@ -1500,6 +1507,7 @@ header.sticky
 {
     background: #e7e7e77e;;
     backdrop-filter: blur(10px);
+    box-shadow:0 4px 50PX 0 rgba(30, 30, 30, 0.365);
 }
 header.sticky ul li a,
 header.sticky .logo
@@ -1560,7 +1568,7 @@ header nav ul li a.active
     left: 15px;
     width: 40px;
     height: 40px;
-    background: #e7e7e7bb url(https://img.icons8.com/?size=100&id=PpSBa7iaIak3&format=png&color=000000);
+    background: #e7e7e7 url(../images/ham.png);
     z-index: 200;
     background-size: 30px;
     background-repeat: no-repeat;
@@ -1578,7 +1586,7 @@ header.sticky .menuToggle
 }
 .menuToggle.active
 {
-    background: #E7E7E7 url(https://img.icons8.com/?size=100&id=2i5n7zNvArOt&format=png&color=000000);
+    background: #E7E7E7 url(../images/close.png);
     z-index: 300;
     background-size: 25px;
     background-repeat: no-repeat;
