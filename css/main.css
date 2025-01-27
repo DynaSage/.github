@@ -41,7 +41,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #19BC9B;
+    color: #12967C;
 }
 
 a:hover,
@@ -360,7 +360,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #19BC9B;
+    background: #12967C;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -369,7 +369,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #19BC9B;
+    color: #12967C;
 }
 
 dd {
@@ -494,7 +494,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #19BC9B;
+    background: #12967C;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -664,7 +664,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #19BC9B;
+    -webkit-text-fill-color: #12967C;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -722,8 +722,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #19BC9B;
-    border-color: #19BC9B;
+    background: #12967C;
+    border-color: #12967C;
     color: #E7E7E7;
 }
 
@@ -737,8 +737,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #12967C;
+    border-color: #12967C;
 }
 
 /* button modifiers
@@ -753,8 +753,8 @@ button.full-width {
 .btn--stroke,
 button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #19BC9B;
-    color: #19BC9B;
+    border: 0.2rem solid #12967C;
+    color: #12967C;
 }
 
 .btn--stroke:hover,
@@ -933,7 +933,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #19BC9B;
+    color: #12967C;
 }
 
 .stats-tabs li a em {
@@ -1072,7 +1072,7 @@ input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #19BC9B;
+    color: #12967C;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1246,7 +1246,7 @@ input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #19BC9B;
+    background: #12967C;
 }
 
 /* ===================================================================
@@ -1339,7 +1339,7 @@ input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #19BC9B;
+    color: #12967C;
 }
 
 .header-nav p {
@@ -1505,7 +1505,7 @@ header
 }
 header.sticky
 {
-    background: #e7e7e77e;;
+    background: #e7e7e77e;
     backdrop-filter: blur(10px);
     box-shadow:0 4px 50PX 0 rgba(30, 30, 30, 0.365);
 }
@@ -1674,7 +1674,7 @@ header.sticky .menuToggle
     .load div{
         width: 20px;
         height: 20px;
-        background-color: #19BC9B;
+        background-color: #12967C;
         border-radius: 50%;
         margin: 0 5px;
         animation-name: up-and-down;
@@ -1719,7 +1719,7 @@ header.sticky .menuToggle
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #19BC9B;
+    color: #12967C;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1893,7 +1893,7 @@ header.sticky .menuToggle
 
 .home-content__buttons .btn {
     width: 210px;
-    border-color: #E7E7E7;
+    border-color: #e7e7e7;
     color: #E7E7E7;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
@@ -1931,8 +1931,8 @@ header.sticky .menuToggle
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #19BC9B;
-    border-right: 2px solid #19BC9B;
+    border-bottom: 2px solid #12967C;
+    border-right: 2px solid #12967C;
     content: '';
     display: block;
     height: 8px;
@@ -1956,7 +1956,7 @@ header.sticky .menuToggle
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #19BC9B;
+    background-color: #12967C;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -2017,7 +2017,7 @@ header.sticky .menuToggle
 }
 
 .home-social span {
-    color: #19BC9B;
+    color: #12967C;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2267,7 +2267,7 @@ html.cl-loaded .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #19BC9B;
+    background-color: #12967C;
     color: #010507;
     position: relative;
 }
@@ -2473,9 +2473,9 @@ html.cl-loaded .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #19BC9B;
+    color: #12967C;
     font-size: 4.8rem;
-    margin-top: -20px;
+    margin-top: -23px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3042,7 +3042,7 @@ html.cl-loaded .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #E7E7E7;
-    background: #19BC9B;
+    background: #12967C;
 }
 
 .s-contact .form-field label::after {
@@ -3053,14 +3053,14 @@ html.cl-loaded .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #19BC9B;
+    border-right: 5px solid #12967C;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #19BC9B;
+    background-color: #12967C;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3087,7 +3087,7 @@ html.cl-loaded .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #19BC9B;
+    color: #12967C;
 }
 
 .contact-content input[type="email"],
@@ -3114,7 +3114,7 @@ html.cl-loaded .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #E7E7E7;
-    border-bottom: 1px solid #19BC9B;
+    border-bottom: 1px solid #12967C;
 }
 
 .contact-content button,
@@ -3210,7 +3210,7 @@ html.cl-loaded .home-content__main {
 
 .contact-social li a:hover,
 .contact-social li a:focus {
-    color: #19BC9B;
+    color: #12967C;
 }
 
 .contact-social li:last-child {
@@ -3233,7 +3233,7 @@ html.cl-loaded .home-content__main {
 }
 
 .message-success {
-    color: #19BC9B;
+    color: #12967C;
 }
 
 .message-warning i,
@@ -3371,7 +3371,7 @@ footer a {
 footer a:hover,
 footer a:focus,
 footer a:active {
-    color: #19BC9B;
+    color: #12967C;
 }
 
 footer .row {
@@ -3463,8 +3463,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #E7E7E7;
-    background: #19BC9B;
-    border-color: #19BC9B;
+    background: #12967C;
+    border-color: #12967C;
     padding: 0 20px;
 }
 
