@@ -1078,7 +1078,7 @@ input::-moz-focus-inner {
 }
 
 .subhead--dark {
-    color: #000000;
+    color: #1F1F1F;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1557,9 +1557,10 @@ header ul li a
 header nav ul li a:hover,
 header nav ul li a.active
 {
-    border: 0px;
+    border: none;
     color: #15af90;
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.963);
+    font-size: large;
 }
 .menuToggle
 {
@@ -1617,14 +1618,15 @@ header.sticky .menuToggle
         position: absolute;
         top: 5000px;
         left: 0;
-        width: 90%;
-        height: 53vh;
+        width: 80%;
+        height: auto;
+        padding: 30px;
         background: #E7E7E7;
         margin-left: 50%;
         transform: translateX(-50%);
         border-radius: 15px;
         transition: .6s;
-        margin-top: 150px;
+        margin-top: 100px;
         box-shadow:0 4px 50PX 0 rgba(30, 30, 30, 0.365);
 
     }
@@ -1642,9 +1644,12 @@ header.sticky .menuToggle
         display: block;
         text-align: center;
     }
-    header nav ul li a
+    header nav ul li a:hover
     {
-        border-bottom: 1px solid rgba(0,0,0,0.2);
+        border: none;
+        color: #15af90;
+        text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.963);
+        font-size: large;
     }
 }
 
@@ -2301,6 +2306,7 @@ html.cl-loaded .home-content__main {
 
 .stats__count {
     font-family: "montserrat-bold", sans-serif;
+    font-weight: bolder;
     font-size: 8.4rem;
     line-height: 1;
     color: #E7E7E7;
@@ -2313,8 +2319,9 @@ html.cl-loaded .home-content__main {
 .stats h5 {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
-    color: #000000;
+    color: #1F1F1F;
     font-size: 1.8rem;
+    font-weight: bold;
     line-height: 1.333;
     position: relative;
 }
