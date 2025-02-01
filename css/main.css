@@ -3471,6 +3471,7 @@ footer .row {
     color: #E8E6E2;
     background: #12967C;
     border-color: #12967C;
+    border-radius: 15px;
     padding: 0 20px;
 }
 
@@ -3608,6 +3609,7 @@ footer .row {
     .footer-subscribe #mc-form input[type="email"] {
         padding: 1.2rem 20px 1.2rem;
         background: rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
         text-align: center;
     }
     .footer-subscribe #mc-form input[type=submit] {
