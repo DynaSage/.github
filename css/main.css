@@ -2712,7 +2712,7 @@ html.cl-loaded .home-content__main {
     height: 4.2rem;
     width: 4.2rem;
     text-align: center;
-    z-index: 500;
+    z-index: 50;
     position: absolute;
     top: 3rem;
     left: 3rem;
