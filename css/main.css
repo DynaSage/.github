@@ -712,9 +712,10 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-    background-color: #b8b8b8;
-    border-color: #b8b8b8;
-    color: #161617;
+    background-color: #6b6b6b;
+    box-shadow:0 4px 50px 0 #00000000;
+    border-color: #7B7A78;
+    color: #e7e7e7;
     outline: 0;
 }
 
@@ -2711,7 +2712,8 @@ html.cl-loaded .home-content__main {
     display: block;
     color: #E8E6E2;
     box-shadow: 0 0 0 1px #E8E6E2;
-    margin-top: 7px;
+    margin-top: 5px;
+    margin-left: 5px;
     border-radius: 50%;
     height: 4.2rem;
     width: 4.2rem;
@@ -2737,6 +2739,7 @@ html.cl-loaded .home-content__main {
     content: "";
     height: 3rem;
     width: 1px;
+    opacity: 0;
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
     top: -3rem;
@@ -2760,7 +2763,6 @@ html.cl-loaded .home-content__main {
 
 .item-folio:hover .item-folio__thumb a::after {
     opacity: 1;
-    visibility: visible;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -2956,11 +2958,12 @@ html.cl-loaded .home-content__main {
     border: none;
     color: #e7e7e7;
     margin-left: 50%;
-    transform: translateX(-50%);
     margin-top: 50px;
     margin-bottom: 20px;
     border-radius: 15px;
+    transform: translateX(-50%);
     background-color: #12967C;
+    box-shadow:0 4px 50px 0 rgba(30, 30, 30, 0.365);
 }
 
 /* ------------------------------------------------------------------- 
