@@ -1821,6 +1821,14 @@ header.sticky .menuToggle
     display: table;
 }
 
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
+
 .s-home .shadow-overlay {
     position: absolute;
     top: 0;
@@ -2938,6 +2946,19 @@ html.cl-loaded .home-content__main {
     margin-top: -0.6px;
 }
 
+.blog-page {
+    width: auto;
+    height: 50px;
+    border: none;
+    color: #e7e7e7;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #12967C;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * clients
@@ -2980,6 +3001,18 @@ html.cl-loaded .home-content__main {
     }
     .clients-testimonials .testimonials .slick-next {
         right: 0;
+    }
+    .blog-page {
+        width: auto;
+        height: 45px;
+        border: none;
+        color: #e7e7e7;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 50px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        background-color: #12967C;
     }
 }
 
