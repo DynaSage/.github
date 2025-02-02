@@ -1629,7 +1629,7 @@ header.sticky .menuToggle
         border-radius: 15px;
         transition: .3s;
         margin-top: 100px;
-        box-shadow:0 4px 50px 0 rgba(30, 30, 30, 0.365);
+        box-shadow:0 4px 50px 0 #1b1b1b4a;
 
     }
     header ul li a
@@ -1685,8 +1685,8 @@ header.sticky .menuToggle
         animation-iteration-count: infinite;
         animation-direction: alternate;
         -webkit-box-shadow: 0px 0px 50px 5px rgba(255,255,255,0.9);
-    -moz-box-shadow: 0px 0px 50px 5px rgba(255,255,255,0.9);
-    box-shadow: 0px 0px 50px 5px rgba(255,255,255,0.9);
+        -moz-box-shadow: 0px 0px 50px 5px rgba(255,255,255,0.9);
+        box-shadow: 0px 0px 50px 5px rgba(255,255,255,0.9);
     }
     
     .load .two{
