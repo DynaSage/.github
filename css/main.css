@@ -1506,8 +1506,8 @@ header
 header.sticky
 {
     background: #0c0c0c7e;
-    backdrop-filter: blur(10px);
-    box-shadow:0 4px 50PX 0 rgba(30, 30, 30, 0.365);
+    backdrop-filter: blur(15px);
+    box-shadow:0 4px 50px 0 rgba(30, 30, 30, 0.365);
 }
 header.sticky ul li a,
 header.sticky .logo
@@ -1616,28 +1616,31 @@ header.sticky .menuToggle
     {
         /*display: none;*/
         position: absolute;
-        top: 5000px;
+        top: -550px;
         left: 0;
-        width: 80%;
+        opacity: 0;
+        width: 81%;
         height: auto;
+        z-index: 100;
         padding: 30px;
-        background: #E8E6E2;
+        background: #1e1e1e;
         margin-left: 50%;
         transform: translateX(-50%);
         border-radius: 15px;
-        transition: .6s;
+        transition: .3s;
         margin-top: 100px;
-        box-shadow:0 4px 50PX 0 rgba(30, 30, 30, 0.365);
+        box-shadow:0 4px 50px 0 rgba(30, 30, 30, 0.365);
 
     }
     header ul li a
     {
-        color: #000;
+        color: #E8E6E1;
     }
-    
     header nav.active
     {
-        top: 20px;
+        top: 15px;
+        opacity: 1;
+        background: #1e1e1e;
     }
     header nav ul
     {
@@ -2882,7 +2885,7 @@ html.cl-loaded .home-content__main {
     width: 8.4rem;
     border-radius: 50%;
     margin: 0 auto 1.2rem auto;
-    box-shadow:0 4px 50PX 0 rgba(30, 30, 30, 0.365);
+    box-shadow:0 4px 50px 0 rgba(30, 30, 30, 0.365);
 }
 
 .clients-testimonials .testimonials__name,
@@ -3537,7 +3540,7 @@ footer .row {
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
     text-transform: uppercase;
-    box-shadow:0 4px 50PX 0 rgba(30, 30, 30, 0.365);
+    box-shadow:0 4px 50px 0 rgba(30, 30, 30, 0.365);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
