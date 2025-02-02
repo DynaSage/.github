@@ -1505,7 +1505,7 @@ header
 }
 header.sticky
 {
-    background: #E8E6E27e;
+    background: #0c0c0c7e;
     backdrop-filter: blur(10px);
     box-shadow:0 4px 50PX 0 rgba(30, 30, 30, 0.365);
 }
@@ -1513,7 +1513,7 @@ header.sticky ul li a,
 header.sticky .logo
 
 {
-    color: #000;
+    color: #E8E6E1;
 }
 header .logo
 {
