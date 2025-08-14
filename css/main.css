@@ -19,7 +19,7 @@ body {
 body,
 a,
 a:hover {
-	cursor: url(https://gitlab.com/utsanjan/DopeSatan/-/raw/master/Optimised/GoogleCursor.png) 30 30,auto;
+	cursor: url(https://gitlab.com/utsanjan/DopeSatan/-/raw/master/Optimised/GoogleCursor.png) 30 30, auto;
 }
 
 body {
@@ -3219,7 +3219,7 @@ html.cl-loaded .home-content__main {
 }
 
 .contact-content {
-	max-width: 1000px;
+	max-width: 1500px;
 	background-color: transparent;
 	color: rgba(255, 255, 255, 0.4);
 	border-radius: 12px;
