@@ -1457,9 +1457,9 @@ input::-moz-focus-inner {
 
 .navigation hr {
 	display: none;
-	background-color: #fafafac2;
+	background-color: #fafafa2a;
 	border: none;
-	height: 0.1px;
+	height: 0px;
 }
 
 /* menu is open
@@ -1674,6 +1674,7 @@ header.sticky .menuToggle {
 
 	header ul li a {
 		color: #E8E6E1;
+		margin-top: 5px;
 	}
 
 	header nav.active {
@@ -2107,7 +2108,7 @@ header.sticky .menuToggle {
 	align-items: center;
 	padding-left: 30px;
 	padding-right: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	margin-top: 30px;
 }
 
