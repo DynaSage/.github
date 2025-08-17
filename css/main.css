@@ -2134,6 +2134,7 @@ header.sticky .menuToggle {
 
 	.navigation hr {
 		display: block;
+		height: 1px;
 	}
 }
 
