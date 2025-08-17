@@ -1856,15 +1856,6 @@ header.sticky .menuToggle {
 	display: table;
 }
 
-.fa.fa-twitter {
-	font-family: sans-serif;
-}
-
-.fa.fa-twitter::before {
-	content: "𝕏";
-	font-size: 1.2em;
-}
-
 .s-home .shadow-overlay {
 	position: absolute;
 	top: 0;
