@@ -3,53 +3,6 @@
  *
  * ------------------------------------------------------------------- */
 
-document.addEventListener('DOMContentLoaded', function () {
-   const menuToggle = document.querySelector('.menuToggle');
-   const navigation = document.querySelector('.navigation');
-   const blurOverlay = document.querySelector('.blur-overlay');
-   let isFadedIn = false; // Track the fade state
-
-   function ToggleMenu() {
-      menuToggle.classList.toggle('active');
-      navigation.classList.toggle('active');
-
-      if (isFadedIn) {
-         // Fade out
-         let opacity = 1;
-         const fadeOutInterval = setInterval(function () {
-            if (opacity > 0) {
-               opacity -= 0.05;
-               blurOverlay.style.opacity = opacity;
-            } else {
-               clearInterval(fadeOutInterval);
-               isFadedIn = false;
-               blurOverlay.style.display = 'none'; // Hide after fade out
-            }
-         }, 10);
-      } else {
-         // Fade in
-         blurOverlay.style.display = 'block'; // Show before fade in
-         let opacity = 0;
-         const fadeInInterval = setInterval(function () {
-            if (opacity < 1) {
-               opacity += 0.05;
-               blurOverlay.style.opacity = opacity;
-            } else {
-               clearInterval(fadeInInterval);
-               isFadedIn = true;
-            }
-         }, 10);
-      }
-   }
-
-   menuToggle.addEventListener('click', ToggleMenu);
-
-   window.addEventListener("scroll", function () {
-      var header = document.querySelector("header");
-      header.classList.toggle('sticky', window.scrollY > 0);
-   });
-});
-
 (function ($) {
 
    "use strict";
