@@ -815,6 +815,7 @@ input::-moz-focus-inner {
 	height: 1.6rem;
 	vertical-align: -0.3rem;
 	margin-right: 0.6rem;
+	fill: currentColor;
 }
 
 .alert-box--error {
