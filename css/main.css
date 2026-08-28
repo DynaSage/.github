@@ -810,6 +810,13 @@ input::-moz-focus-inner {
 	font-size: 12px;
 }
 
+.alert-box .alert-icon {
+	width: 1.6rem;
+	height: 1.6rem;
+	vertical-align: -0.3rem;
+	margin-right: 0.6rem;
+}
+
 .alert-box--error {
 	background-color: #ffd1d2;
 	color: #e65153;
@@ -2060,7 +2067,8 @@ header.sticky .menuToggle {
 }
 
 .home-social i,
-.home-social span {
+.home-social span,
+.home-social svg {
 	position: absolute;
 	top: 0;
 	line-height: 33px;
@@ -2068,7 +2076,8 @@ header.sticky .menuToggle {
 	transition: all 0.5s ease-in-out;
 }
 
-.home-social i {
+.home-social i,
+.home-social svg {
 	font-size: 14px;
 	right: 0;
 	text-align: center;
@@ -2078,6 +2087,12 @@ header.sticky .menuToggle {
 	line-height: calc(33px - 4px);
 	border: 2px solid #E8E6E2;
 	border-radius: 50%;
+}
+
+.home-social svg {
+	fill: #E8E6E2;
+	padding: 6px;
+	box-sizing: border-box;
 }
 
 .home-social span {
@@ -2125,6 +2140,13 @@ header.sticky .menuToggle {
 	color: #15af90;
 	text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.963);
 	font-size: large;
+}
+
+.home-social-mobile svg {
+	width: 1.6rem;
+	height: 1.6rem;
+	fill: currentColor;
+	vertical-align: middle;
 }
 
 @media (max-width: 990px) {
@@ -2316,7 +2338,8 @@ html.cl-loaded .home-content__main {
 		padding: .6rem 0;
 	}
 
-	.home-social i {
+	.home-social i,
+	.home-social svg {
 		font-size: 17px;
 		border: none;
 	}
@@ -2622,6 +2645,13 @@ html.cl-loaded .home-content__main {
 	margin-top: -23px;
 }
 
+.services-list .service-icon svg {
+	margin-top: 20px;
+	width: 4.8rem;
+	height: 4.8rem;
+	fill: #12967C;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * services
@@ -2848,8 +2878,18 @@ html.cl-loaded .home-content__main {
 }
 
 .item-folio__project-link {
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	color: #E8E6E2;
+	border: none;
+	background: transparent;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	box-shadow: 0 0 0 1px #E8E6E2;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -2868,9 +2908,16 @@ html.cl-loaded .home-content__main {
 	transform: translate3d(0, -100%, 0);
 }
 
-.item-folio__project-link i {
+.item-folio__project-link i,
+.item-folio__project-link svg {
 	font-size: 1.8rem;
 	line-height: 4.2rem;
+}
+
+.item-folio__project-link svg {
+	width: 1.8rem;
+	height: 1.8rem;
+	fill: currentColor;
 }
 
 .item-folio__project-link::before {
@@ -2890,6 +2937,13 @@ html.cl-loaded .home-content__main {
 .item-folio__project-link:active {
 	background-color: #E8E6E2;
 	color: #161617;
+}
+
+/* copied feedback state (toggled via JS) */
+.item-folio__project-link.copied {
+	background-color: #4DC5AA;
+	color: #161617;
+	box-shadow: 0 0 0 1px #4DC5AA;
 }
 
 /* on hover 
@@ -3739,15 +3793,14 @@ footer .row {
 .go-top a:visited {
 	text-decoration: none;
 	border: 0 none;
-	display: block;
-	height: 60px;
-	width: 60px;
-	line-height: 60px;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
 	background: #E7E7E7;
 	border-radius: 15px;
 	color: rgba(0, 0, 0, 0.5);
-	text-align: center;
 	text-transform: uppercase;
 	box-shadow: 0 4px 50px 0 rgba(30, 30, 30, 0.365);
 	-webkit-transition: all 0.3s ease-in-out;
@@ -3755,9 +3808,16 @@ footer .row {
 }
 
 .go-top a i,
-.go-top a:visited i {
+.go-top a:visited i,
+.go-top a svg {
 	font-size: 18px;
 	line-height: inherit;
+}
+
+.go-top a svg {
+	width: 18px;
+	height: 18px;
+	fill: rgba(0, 0, 0, 0.5);
 }
 
 .go-top a:hover,
